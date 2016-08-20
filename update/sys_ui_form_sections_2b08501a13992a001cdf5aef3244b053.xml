@@ -6,14 +6,39 @@
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2016-08-19 14:41:27</sys_created_on>
             <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
             <sys_id>af08501a13992a001cdf5aef3244b053</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_snc_irt2_table" name="x_snc_irt2_table" sys_domain="global" view="Default view">2b08501a13992a001cdf5aef3244b053</sys_ui_form>
-            <sys_ui_section caption="NULL" display_value="" name="x_snc_irt2_table" sys_domain="global" view="Default view">bab1909613992a001cdf5aef3244b057</sys_ui_section>
+            <sys_ui_section display_value="">bab1909613992a001cdf5aef3244b057</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2016-08-19 14:41:27</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>MallaA</sys_created_by>
+            <sys_created_on>2016-08-19 15:56:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>6349ec5613196200b5ff30128144b06b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_irt2_table" name="x_snc_irt2_table" sys_domain="global" view="Default view">2b08501a13992a001cdf5aef3244b053</sys_ui_form>
+            <sys_ui_section display_value="">6f08501a13992a001cdf5aef3244b052</sys_ui_section>
+            <sys_updated_by>MallaA</sys_updated_by>
+            <sys_updated_on>2016-08-19 15:56:49</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>MallaA</sys_created_by>
+            <sys_created_on>2016-08-19 15:56:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>ab49ec5613196200b5ff30128144b06b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_irt2_table" name="x_snc_irt2_table" sys_domain="global" view="Default view">2b08501a13992a001cdf5aef3244b053</sys_ui_form>
+            <sys_ui_section display_value="">a308501a13992a001cdf5aef3244b053</sys_ui_section>
+            <sys_updated_by>MallaA</sys_updated_by>
+            <sys_updated_on>2016-08-19 15:56:50</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_snc_irt2_table</name>
@@ -23,7 +48,6 @@
             <sys_created_on>2016-08-19 14:41:27</sys_created_on>
             <sys_customer_update>true</sys_customer_update>
             <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
             <sys_id>2b08501a13992a001cdf5aef3244b053</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_snc_irt2_table</sys_name>

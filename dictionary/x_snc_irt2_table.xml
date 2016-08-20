@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element audit="true" label="Irt2 Table" max_length="40" name="x_snc_irt2_table" type="collection">
+        <element label="Application" max_length="32" name="application" reference="x_snc_irt_application" type="reference"/>
+        <element label="Assigned to" max_length="32" name="assigned_to" reference="sys_user" type="reference"/>
+        <element label="Description" mandatory="true" max_length="1000" name="description" type="string"/>
+        <element choice="1" label="Dev Comments" max_length="40" name="dev_comments" type="choice">
+            <choice/>
+        </element>
+        <element choice="3" default="Submission Delay" label="Dev Theme" max_length="40" name="dev_theme" type="choice">
+            <choice>
+                <element label="Submission Delay" sequence="0" value="Submission Delay"/>
+                <element label="Data Issue" sequence="1" value="Data Issue"/>
+                <element label="Choice 3" sequence="2" value="Choice 3"/>
+            </choice>
+        </element>
+        <element label="JIRA" max_length="40" name="jira" type="string"/>
+        <element label="JIRA Link" max_length="1024" name="jira_link" type="url"/>
+        <element default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element choice="3" default="High" label="Priority" mandatory="true" max_length="40" name="priority" type="choice">
+            <choice>
+                <element label="High" sequence="0" value="High"/>
+                <element label="Medium" sequence="1" value="Medium"/>
+                <element label="Low" sequence="2" value="Low"/>
+            </choice>
+        </element>
+        <element label="Requestor" mandatory="true" max_length="32" name="requestor" reference="sys_user" type="reference"/>
+        <element choice="3" default="Service Request" label="Request Type" mandatory="true" max_length="40" name="request_type" type="choice">
+            <choice>
+                <element label="Service Request" sequence="0" value="Service Request"/>
+                <element label="Enhancement" sequence="1" value="Enhancement"/>
+                <element label="Incident" sequence="2" value="Incident"/>
+            </choice>
+        </element>
+        <element choice="3" default="New" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element label="New" sequence="0" value="New"/>
+                <element label="In Progress" sequence="1" value="In Progress"/>
+                <element label="Active" sequence="2" value="Active"/>
+            </choice>
+        </element>
+        <element choice="3" default="P1" label="Support Tier" max_length="40" name="tier" type="choice">
+            <choice>
+                <element label="P1" sequence="0" value="P1"/>
+                <element label="P2" sequence="1" value="P2"/>
+                <element label="P3" sequence="2" value="P3"/>
+            </choice>
+        </element>
+        <element label="Comments" max_length="4000" name="u_comments" type="journal"/>
+        <index name="index">
+            <element name="application"/>
+        </index>
+        <index name="index2">
+            <element name="requestor"/>
+        </index>
+        <index name="index3">
+            <element name="assigned_to"/>
+        </index>
+    </element>
+</database>
